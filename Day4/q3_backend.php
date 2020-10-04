@@ -12,7 +12,7 @@ if($error){
 }
 else{
 
-  if($size > 200000){
+  if($size < 2000000){
     echo "Upload complete<br>";
     echo "<br>File name : ".$name;
     echo "<br>File type : ".$type;
