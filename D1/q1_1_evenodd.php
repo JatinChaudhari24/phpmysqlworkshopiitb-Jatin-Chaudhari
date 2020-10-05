@@ -3,7 +3,7 @@
 $test = array(11,23,72,44);
 
 for($i=0;$i<4;$i++){
-  if($test%2==0){
+  if($test[i]%2==0){
     $state = "even";
   }
   else{
